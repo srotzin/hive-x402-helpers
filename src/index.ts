@@ -2,8 +2,8 @@
  * @hivecivilization/x402-helpers
  * Pre-configured x402 client for Hive Civilization services on Base mainnet.
  *
- * NOT AFFILIATED WITH COINBASE. x402 is an open protocol; this wrapper targets
- * Hive Civilization services specifically.
+ * NOT AFFILIATED WITH COINBASE. x402 is an open protocol from the x402 foundation;
+ * this package is a Hive-specific convenience wrapper.
  *
  * @see https://github.com/srotzin/hive-x402-helpers
  */
@@ -28,66 +28,66 @@ export const HIVE_USDC = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as const;
  */
 export const HIVE_SERVICES = {
   // AI / Evaluation Services
-  evaluator: "https://api.hiveciv.com/v1/evaluator",
-  summarizer: "https://api.hiveciv.com/v1/summarizer",
-  classifier: "https://api.hiveciv.com/v1/classifier",
-  sentiment: "https://api.hiveciv.com/v1/sentiment",
-  extractor: "https://api.hiveciv.com/v1/extractor",
-  translator: "https://api.hiveciv.com/v1/translator",
-  transcriber: "https://api.hiveciv.com/v1/transcriber",
-  embeddings: "https://api.hiveciv.com/v1/embeddings",
-  reranker: "https://api.hiveciv.com/v1/reranker",
-  router: "https://api.hiveciv.com/v1/router",
+  evaluator:          "https://api.hiveciv.com/v1/evaluator",
+  summarizer:         "https://api.hiveciv.com/v1/summarizer",
+  classifier:         "https://api.hiveciv.com/v1/classifier",
+  sentiment:          "https://api.hiveciv.com/v1/sentiment",
+  extractor:          "https://api.hiveciv.com/v1/extractor",
+  translator:         "https://api.hiveciv.com/v1/translator",
+  transcriber:        "https://api.hiveciv.com/v1/transcriber",
+  embeddings:         "https://api.hiveciv.com/v1/embeddings",
+  reranker:           "https://api.hiveciv.com/v1/reranker",
+  router:             "https://api.hiveciv.com/v1/router",
 
   // Data / Research Services
-  search: "https://api.hiveciv.com/v1/search",
-  news: "https://api.hiveciv.com/v1/news",
-  research: "https://api.hiveciv.com/v1/research",
-  scraper: "https://api.hiveciv.com/v1/scraper",
-  crawler: "https://api.hiveciv.com/v1/crawler",
-  parser: "https://api.hiveciv.com/v1/parser",
-  enricher: "https://api.hiveciv.com/v1/enricher",
-  validator: "https://api.hiveciv.com/v1/validator",
-  aggregator: "https://api.hiveciv.com/v1/aggregator",
-  monitor: "https://api.hiveciv.com/v1/monitor",
+  search:             "https://api.hiveciv.com/v1/search",
+  news:               "https://api.hiveciv.com/v1/news",
+  research:           "https://api.hiveciv.com/v1/research",
+  scraper:            "https://api.hiveciv.com/v1/scraper",
+  crawler:            "https://api.hiveciv.com/v1/crawler",
+  parser:             "https://api.hiveciv.com/v1/parser",
+  enricher:           "https://api.hiveciv.com/v1/enricher",
+  validator:          "https://api.hiveciv.com/v1/validator",
+  aggregator:         "https://api.hiveciv.com/v1/aggregator",
+  monitor:            "https://api.hiveciv.com/v1/monitor",
 
   // Finance / Crypto Services
-  priceOracle: "https://api.hiveciv.com/v1/price-oracle",
-  portfolioAnalyzer: "https://api.hiveciv.com/v1/portfolio-analyzer",
-  riskScorer: "https://api.hiveciv.com/v1/risk-scorer",
-  yieldOptimizer: "https://api.hiveciv.com/v1/yield-optimizer",
-  defiRouter: "https://api.hiveciv.com/v1/defi-router",
-  nftAnalyzer: "https://api.hiveciv.com/v1/nft-analyzer",
-  walletProfiler: "https://api.hiveciv.com/v1/wallet-profiler",
-  contractAuditor: "https://api.hiveciv.com/v1/contract-auditor",
-  gasEstimator: "https://api.hiveciv.com/v1/gas-estimator",
-  bridgeRouter: "https://api.hiveciv.com/v1/bridge-router",
+  priceOracle:        "https://api.hiveciv.com/v1/price-oracle",
+  portfolioAnalyzer:  "https://api.hiveciv.com/v1/portfolio-analyzer",
+  riskScorer:         "https://api.hiveciv.com/v1/risk-scorer",
+  yieldOptimizer:     "https://api.hiveciv.com/v1/yield-optimizer",
+  defiRouter:         "https://api.hiveciv.com/v1/defi-router",
+  nftAnalyzer:        "https://api.hiveciv.com/v1/nft-analyzer",
+  walletProfiler:     "https://api.hiveciv.com/v1/wallet-profiler",
+  contractAuditor:    "https://api.hiveciv.com/v1/contract-auditor",
+  gasEstimator:       "https://api.hiveciv.com/v1/gas-estimator",
+  bridgeRouter:       "https://api.hiveciv.com/v1/bridge-router",
 
   // Business / Productivity Services
-  documentDrafter: "https://api.hiveciv.com/v1/document-drafter",
-  codeReviewer: "https://api.hiveciv.com/v1/code-reviewer",
-  meetingNotes: "https://api.hiveciv.com/v1/meeting-notes",
-  taskPlanner: "https://api.hiveciv.com/v1/task-planner",
-  proposalWriter: "https://api.hiveciv.com/v1/proposal-writer",
-  emailDrafter: "https://api.hiveciv.com/v1/email-drafter",
-  reportGenerator: "https://api.hiveciv.com/v1/report-generator",
-  dataVisualizer: "https://api.hiveciv.com/v1/data-visualizer",
-  chartBuilder: "https://api.hiveciv.com/v1/chart-builder",
-  presentationMaker: "https://api.hiveciv.com/v1/presentation-maker",
+  documentDrafter:    "https://api.hiveciv.com/v1/document-drafter",
+  codeReviewer:       "https://api.hiveciv.com/v1/code-reviewer",
+  meetingNotes:       "https://api.hiveciv.com/v1/meeting-notes",
+  taskPlanner:        "https://api.hiveciv.com/v1/task-planner",
+  proposalWriter:     "https://api.hiveciv.com/v1/proposal-writer",
+  emailDrafter:       "https://api.hiveciv.com/v1/email-drafter",
+  reportGenerator:    "https://api.hiveciv.com/v1/report-generator",
+  dataVisualizer:     "https://api.hiveciv.com/v1/data-visualizer",
+  chartBuilder:       "https://api.hiveciv.com/v1/chart-builder",
+  presentationMaker:  "https://api.hiveciv.com/v1/presentation-maker",
 
   // Identity / Compliance Services
-  kycOracle: "https://api.hiveciv.com/v1/kyc-oracle",
-  amlChecker: "https://api.hiveciv.com/v1/aml-checker",
-  reputationScorer: "https://api.hiveciv.com/v1/reputation-scorer",
-  identityVerifier: "https://api.hiveciv.com/v1/identity-verifier",
-  complianceAuditor: "https://api.hiveciv.com/v1/compliance-auditor",
+  kycOracle:          "https://api.hiveciv.com/v1/kyc-oracle",
+  amlChecker:         "https://api.hiveciv.com/v1/aml-checker",
+  reputationScorer:   "https://api.hiveciv.com/v1/reputation-scorer",
+  identityVerifier:   "https://api.hiveciv.com/v1/identity-verifier",
+  complianceAuditor:  "https://api.hiveciv.com/v1/compliance-auditor",
 
   // Infrastructure Services
-  ipfsGateway: "https://api.hiveciv.com/v1/ipfs-gateway",
-  webhookRelay: "https://api.hiveciv.com/v1/webhook-relay",
-  cacheLayer: "https://api.hiveciv.com/v1/cache-layer",
-  rateLimiter: "https://api.hiveciv.com/v1/rate-limiter",
-  loadBalancer: "https://api.hiveciv.com/v1/load-balancer",
+  ipfsGateway:        "https://api.hiveciv.com/v1/ipfs-gateway",
+  webhookRelay:       "https://api.hiveciv.com/v1/webhook-relay",
+  cacheLayer:         "https://api.hiveciv.com/v1/cache-layer",
+  rateLimiter:        "https://api.hiveciv.com/v1/rate-limiter",
+  loadBalancer:       "https://api.hiveciv.com/v1/load-balancer",
 } as const;
 
 export type HiveServiceName = keyof typeof HIVE_SERVICES;
@@ -112,6 +112,11 @@ export interface ServiceCatalog {
 /**
  * Create a fetch-compatible function pre-wired for Hive x402 payments.
  *
+ * Wraps @x402/fetch's `wrapFetchWithPaymentFromConfig` with:
+ * - Base mainnet (eip155:8453) network pre-selected
+ * - ExactEvmScheme using EIP-3009 USDC transfers
+ * - Payment routed to Hive treasury automatically via 402 challenge
+ *
  * @param privateKey - EVM private key (0x-prefixed) that funds micropayments
  * @returns A drop-in replacement for `fetch` that handles 402 challenges
  *          automatically, routing USDC payments to the Hive treasury.
@@ -121,39 +126,41 @@ export interface ServiceCatalog {
  * import { createHivePayer, HIVE_SERVICES } from "@hivecivilization/x402-helpers";
  *
  * const pay = createHivePayer(`0x${process.env.AGENT_PRIVATE_KEY}`);
- * const result = await pay(HIVE_SERVICES.evaluator, { method: "POST", body: JSON.stringify({ text: "..." }) });
+ * const result = await pay(HIVE_SERVICES.evaluator, {
+ *   method: "POST",
+ *   body: JSON.stringify({ text: "analyze this" })
+ * });
  * const data = await result.json();
  * ```
  */
 export function createHivePayer(privateKey: `0x${string}`): typeof fetch {
-  // Lazy-load x402/fetch so consumers that don't use it don't pay the import cost.
-  // We return a proxy function that will initialise the client on first call.
+  // Lazy-init so bundlers can tree-shake if createHivePayer is unused.
   let _client: typeof fetch | null = null;
 
   const getClient = async (): Promise<typeof fetch> => {
     if (_client) return _client;
 
-    // Dynamic import so bundlers can tree-shake if unused.
-    const { wrapFetchWithPayment } = await import("@x402/fetch");
-    const { createWalletClient, http } = await import("viem");
+    const { wrapFetchWithPaymentFromConfig } = await import("@x402/fetch");
+    const { ExactEvmScheme } = await import("@x402/evm");
     const { privateKeyToAccount } = await import("viem/accounts");
-    const { base } = await import("viem/chains");
 
     const account = privateKeyToAccount(privateKey);
-    const walletClient = createWalletClient({
-      account,
-      chain: base,
-      transport: http(),
+
+    _client = wrapFetchWithPaymentFromConfig(fetch, {
+      schemes: [
+        {
+          network: "eip155:8453", // Base mainnet
+          client: new ExactEvmScheme(account as any),
+        },
+      ],
     });
 
-    _client = wrapFetchWithPayment(fetch, walletClient as any);
     return _client;
   };
 
-  // Return a synchronous-signature proxy that resolves the client lazily.
   return (async (input: RequestInfo | URL, init?: RequestInit) => {
     const client = await getClient();
-    return client(input, init);
+    return client(input as any, init);
   }) as typeof fetch;
 }
 
@@ -164,15 +171,15 @@ export function createHivePayer(privateKey: `0x${string}`): typeof fetch {
  * Safe to call at agent startup for capability discovery.
  */
 export async function discoverHiveServices(): Promise<ServiceCatalog> {
-  const services = (Object.entries(HIVE_SERVICES) as [HiveServiceName, string][]).map(
-    ([name, url]) => ({
-      name,
-      url,
-      chainId: HIVE_CHAIN_ID,
-      treasury: HIVE_TREASURY,
-      paymentToken: HIVE_USDC,
-    })
-  );
+  const services = (
+    Object.entries(HIVE_SERVICES) as [HiveServiceName, string][]
+  ).map(([name, url]) => ({
+    name,
+    url,
+    chainId: HIVE_CHAIN_ID,
+    treasury: HIVE_TREASURY,
+    paymentToken: HIVE_USDC,
+  }));
 
   return {
     services,
@@ -207,11 +214,13 @@ export async function callHiveService(
 ): Promise<unknown> {
   const baseUrl = HIVE_SERVICES[name];
   if (!baseUrl) {
-    throw new Error(`Unknown Hive service: "${name}". Valid services: ${Object.keys(HIVE_SERVICES).join(", ")}`);
+    throw new Error(
+      `Unknown Hive service: "${name}". Valid services: ${Object.keys(HIVE_SERVICES).join(", ")}`
+    );
   }
 
   const url = `${baseUrl}/${tool}`;
-  const response = await payer(url, {
+  const response = await payer(url as any, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -222,7 +231,9 @@ export async function callHiveService(
 
   if (!response.ok) {
     const text = await response.text();
-    throw new Error(`Hive service "${name}/${tool}" returned ${response.status}: ${text}`);
+    throw new Error(
+      `Hive service "${name}/${tool}" returned ${response.status}: ${text}`
+    );
   }
 
   return response.json();
