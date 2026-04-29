@@ -1,0 +1,48 @@
+{
+  "name": "@hivecivilization/x402-helpers",
+  "version": "1.0.0",
+  "description": "Pre-configured x402 client wrapper for Hive Civilization services on Base mainnet",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "hive",
+    "base",
+    "usdc",
+    "ai-agent",
+    "payments",
+    "coinbase"
+  ],
+  "author": "Steve Rotzin <steve@thehiveryiq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-x402-helpers.git"
+  },
+  "homepage": "https://github.com/srotzin/hive-x402-helpers#readme",
+  "dependencies": {
+    "@x402/fetch": "^0.1.0",
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
