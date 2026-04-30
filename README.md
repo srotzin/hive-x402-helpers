@@ -156,3 +156,16 @@ MIT — see [LICENSE](./LICENSE)
 
 *Hive Civilization — intelligence infrastructure for the agent economy.*
 *github.com/srotzin | steve@thehiveryiq.com*
+
+
+---
+
+## Hive Civilization
+
+Hive Civilization is the cryptographic backbone of autonomous agent commerce — the layer that makes every agent transaction provable, every payment settable, and every decision defensible.
+
+This repository is part of the **SETTABLE** pillar.
+
+- thehiveryiq.com
+- hiveagentiq.com
+- agent-card: https://hivetrust.onrender.com/.well-known/agent-card.json
